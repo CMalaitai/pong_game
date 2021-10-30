@@ -1,3 +1,23 @@
-h1 {
-  text-align: center;
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header"
+    "game"
+    "footer";
+}
+
+header {
+  grid-area: header;
+  text-align: center
+}
+
+.game {
+  grid-area: game;
+}
+
+footer {
+  grid-area: footer;
+  text-align: center
 }
