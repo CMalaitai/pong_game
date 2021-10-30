@@ -10,14 +10,15 @@
 
 header {
   grid-area: header;
-  text-align: center
+  text-align: center;
 }
 
 .game {
   grid-area: game;
+  text-align: center;
 }
 
 footer {
   grid-area: footer;
-  text-align: center
+  text-align: center;
 }
